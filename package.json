@@ -1,0 +1,15 @@
+{
+"name": "openlayers-app",
+"version": "1.0.0",
+"description": "OpenLayers Map App",
+"main": "index.js",
+"scripts": {
+  "build": "parcel build src/index.html --public-url ./",
+  "start": "node server.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "ol": "^6.7.0",
+    "parcel": "^2.8.3"
+      }
+  }
+}
